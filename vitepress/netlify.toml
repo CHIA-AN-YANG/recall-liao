@@ -1,0 +1,7 @@
+[build]
+  command = "pnpm run docs:build"
+  publish = ".vitepress/dist"
+
+[dev]
+  command = "pnpm run docs:dev"
+  port = 5173
