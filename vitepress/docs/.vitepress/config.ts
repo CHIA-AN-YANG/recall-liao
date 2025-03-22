@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'Your Gateway to Mathematical Discoveryg',
+  title: 'Anna Yang\'s Notebook',
   description: 'LLM learning blog from scratch, with LaTeX support',
   markdown: {
     math: true,
