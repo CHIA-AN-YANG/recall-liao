@@ -5,6 +5,34 @@ tags: ['mathematics', 'linear algebra', 'vector spaces']
 ---
 
 <CustomH1>Understanding Vector Spaces</CustomH1>
+<details>
+  <summary>Keyword</summary>
+<dl>
+  <dt>Closure under addition</dt>
+  <dd>加法封閉性</dd>
+
+  <dt>Commutativity of addition</dt>
+  <dd>加法交換律</dd>
+
+  <dt>Associativity of addition</dt>
+  <dd>加法結合律</dd>
+
+  <dt>Existence of additive identity</dt>
+  <dd>加法單位元（零向量存在）</dd>
+
+  <dt>Existence of additive inverse</dt>
+  <dd>加法逆元（相反向量存在）</dd>
+
+  <dt>Closure under scalar multiplication</dt>
+  <dd>數乘封閉性</dd>
+
+  <dt>Identity element of scalar multiplication</dt>
+  <dd>數乘單位元（乘法恒等元素）</dd>
+
+  <dt>Distributivity of scalar multiplication over vector addition and scalar addition</dt>
+  <dd>分配律（數乘對向量加法和純量加法的分配律）</dd>
+</dl>
+</details>
 
 ## Introduction
 

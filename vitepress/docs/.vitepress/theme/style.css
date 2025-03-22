@@ -17,6 +17,31 @@
   --vp-c-bg: #232220;
 }
 
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt {
+  display: inline-flex;
+  flex: 40%;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--vp-c-brand-3);
+}
+
+dd {
+  display: inline-flex;
+  flex: 50%;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--vp-c-brand-3);
+  margin-left: 0;
+}
+
+dd:before {
+  content: "--";
+  padding: 0 0.5rem;
+}
+
 .VPDoc {
   display: flex;
   flex-direction: row;

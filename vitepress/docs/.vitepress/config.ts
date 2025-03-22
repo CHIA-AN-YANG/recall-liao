@@ -18,9 +18,10 @@ export default defineConfig({
         {
           text: 'All Posts',
           items: [
-            { text: 'Introduction', link: '/posts/introduction' },
-            { text: 'Sample Math Note', link: '/posts/sample-math-note' },
-            { text: 'Understanding Vector Spaces', link: '/posts/understanding-vector-spaces' },
+            // { text: 'Introduction', link: '/posts/introduction' },
+            // { text: 'Sample Math Note', link: '/posts/sample-math-note' },
+            { text: 'Vector Spaces', link: '/posts/understanding-vector-spaces' },
+            { text: 'Matrix Calculation', link: '/posts/matrix-operations' },
           ]
         }
       ]
