@@ -1,6 +1,7 @@
 [build]
   command = "pnpm run docs:build"
-  publish = ".vitepress/dist"
+  publish = "docs/.vitepress/dist"
+  
 
 [dev]
   command = "pnpm run docs:dev"
