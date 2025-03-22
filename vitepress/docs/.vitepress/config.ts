@@ -20,6 +20,7 @@ export default defineConfig({
           items: [
             { text: 'Introduction', link: '/posts/introduction' },
             { text: 'Sample Math Note', link: '/posts/sample-math-note' },
+            { text: 'Understanding Vector Spaces', link: '/posts/understanding-vector-spaces' },
           ]
         }
       ]

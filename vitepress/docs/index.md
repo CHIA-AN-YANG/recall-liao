@@ -2,9 +2,9 @@
 layout: home
 title: Math Blog
 hero:
-  name: Math Blog
-  text: Your Gateway to Mathematical Discovery
-  tagline: Explore mathematics through examples and clear explanations
+  name: A Walk to Advanced Math from scratch
+  text: My Wild Discovery to LLM World
+  tagline: Explore mathematics through latex syntex and clear explanations
   actions:
     - theme: brand
       text: Get Started
