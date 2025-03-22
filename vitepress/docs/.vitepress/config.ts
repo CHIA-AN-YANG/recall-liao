@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'Math Notes Blog',
-  description: 'A blog for mathematics notes with LaTeX support',
+  title: 'Your Gateway to Mathematical Discoveryg',
+  description: 'LLM learning blog from scratch, with LaTeX support',
   markdown: {
     math: true,
     lineNumbers: true

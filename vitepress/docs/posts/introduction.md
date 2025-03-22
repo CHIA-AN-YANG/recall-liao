@@ -6,7 +6,7 @@ tags: ['introduction', 'guide']
 
 # Introduction
 
-Welcome to the Math Notes Blog! This platform is designed to help you write and share mathematical notes with ease.
+Welcome to the Math Notes Blog! This platform is my place to write and share mathematical notes.
 
 ## Features
 
