@@ -55,8 +55,17 @@
       "server": "5e428e94-c07f-44b6-84c8-a6821056c49a",
       "cmd": "pnpm install markdown-it-mathjax3 && pnpm run docs:dev",
       "timeline_index": 14,
-      "status": "success",
-      "logs": []
+      "status": "initializing",
+      "logs": [
+        "\n",
+        "\n",
+        "> vitepress@1.0.0 docs:dev /data/chats/5d0grd/workspace/vitepress\n",
+        "> vitepress dev docs\n",
+        "\n",
+        "\n",
+        "  vitepress v1.5.0\n",
+        "\n"
+      ]
     }
   },
   "deploy": {}
