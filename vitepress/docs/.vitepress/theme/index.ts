@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { MotionPlugin } from '@vueuse/motion'
 import CustomH1 from './components/CustomH1.vue'
 import PostInfo from './components/PostInfo.vue'
+import ReactWrapper from './components/ReactWrapper.vue'
 import './style.css'
 
 export default {
@@ -11,5 +12,6 @@ export default {
     app.use(MotionPlugin)
     app.component('PostInfo', PostInfo)
     app.component('CustomH1', CustomH1)
+    app.component('ReactWrapper', ReactWrapper)
   }
 } satisfies Theme

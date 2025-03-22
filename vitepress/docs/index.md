@@ -3,11 +3,11 @@ layout: home
 title: Math Blog
 hero:
   name: A Walk to Advanced Math from scratch
-  text: My Wild Discovery to LLM World
+  text: My Wild Adventure to LLM World
   tagline: Explore mathematics through latex syntex and clear explanations
   actions:
     - theme: brand
-      text: Write Your Blog
+      text: Check Posts
       link: /metagpt/introduction
     - theme: alt
       text: View on GitHub
@@ -21,3 +21,4 @@ features:
   - title: Tag Filtering
     details: Easily find posts by topic using tags
 ---
+<ReactWrapper/>
