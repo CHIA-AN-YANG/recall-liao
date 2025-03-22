@@ -1,31 +1,42 @@
 ---
 layout: home
-title: Math Notes Blog
+title: Math Blog
 hero:
-  name: Math Notes Blog
-  text: Write mathematics with LaTeX support
-  tagline: A simple and elegant blog for mathematical notes
+  name: Math Blog
+  text: Your Gateway to Mathematical Discovery
+  tagline: Explore mathematics through interactive examples and clear explanations
   actions:
     - theme: brand
       text: Get Started
-      link: /posts/introduction
+      link: /guide/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com
+      link: https://github.com/your-repo/math-blog
+
 features:
   - title: LaTeX Support
-    details: Write complex mathematical equations using LaTeX syntax
+    details: Write beautiful mathematical equations using LaTeX syntax
   - title: Code Highlighting
-    details: Syntax highlighting for code blocks
-  - title: Tag Organization
-    details: Organize and filter posts by tags
+    details: Share code examples with syntax highlighting
+  - title: Tag Filtering
+    details: Easily find posts by topic using tags
 ---
 
-# Welcome to Math Notes Blog
+<script setup>
+import AnimatedTitle from './.vitepress/theme/components/AnimatedTitle.vue'
+</script>
 
-This blog is designed for taking mathematics notes with full LaTeX support and code syntax highlighting.
+<div class="main-content">
+  <AnimatedTitle text="Math Blog" />
+  
+  Welcome to our mathematics blog where we explore various mathematical concepts, 
+  from basic arithmetic to advanced calculus. Use the tag system to filter posts 
+  by topic and find exactly what you're looking for.
+</div>
 
-## Latest Posts
-
-- [Introduction](/posts/introduction)
-- [Sample Math Note](/posts/sample-math-note)
+<style>
+.main-content {
+  padding: 2rem;
+  text-align: center;
+}
+</style>

@@ -1,19 +1,15 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
-import Layout from './Layout.vue'
+import { MotionPlugin } from '@vueuse/motion'
 import TagList from './components/TagList.vue'
+import AnimatedTitle from './components/AnimatedTitle.vue'
+import './style.css'
 
-export { TagList }
-
-export const Theme = {
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(Layout)
-  },
+export default {
+  ...DefaultTheme,
   enhanceApp({ app }) {
+    app.use(MotionPlugin)
     app.component('TagList', TagList)
+    app.component('AnimatedTitle', AnimatedTitle)
   }
 }
-
-export default Theme
