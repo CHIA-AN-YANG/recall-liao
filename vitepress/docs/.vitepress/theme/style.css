@@ -144,6 +144,22 @@ dd:before {
   color: var(--vp-c-primary-light);
 }
 
+.vp-doc blockquote {
+  color: var(--vp-c-bg);
+  transition: color 2s;
+}
+
+.vp-doc blockquote:before {
+  content: "answer";
+  color: var(--vp-c-text);
+  position: absolute;
+  text-orientation: sideways;
+}
+
+.vp-doc blockquote:hover {
+  color: var(--vp-c-text);
+}
+
 @media (max-width: 960px) {
   .VPDoc .aside {
     display: none;
@@ -153,4 +169,8 @@ dd:before {
 .tag-list {
   margin-top: 2rem;
   padding: 0 1.5rem;
+}
+
+.mjx-container {
+  overflow-y: clip;
 }

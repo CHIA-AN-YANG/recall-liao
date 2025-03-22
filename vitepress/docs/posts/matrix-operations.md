@@ -82,32 +82,37 @@ Matrix multiplication is the backbone of neural networks:
 
 $$\begin{bmatrix} x_1 \end{bmatrix} \times \begin{bmatrix} w_{11} & w_{12} \\ w_{21} & w_{22} \end{bmatrix} + \begin{bmatrix} b_1 \end{bmatrix} = \begin{bmatrix} y_1 \end{bmatrix}$$
 
-🧠 **Process**:
+**Process**:
 1. Input values are multiplied by weights
 2. Bias is added
 3. Activation function is applied (not shown)
 
-## Real-World Example: Image Processing
+### 3.4 Real-World Example: Image Processing
 
 Let's see how matrices transform images:
 
 $$\begin{bmatrix} 1 & 2 & 1 \end{bmatrix} \times \begin{bmatrix} \frac{1}{9} & \frac{1}{9} & \frac{1}{9} \end{bmatrix} = \begin{bmatrix} \text{Blurred Pixel} \end{bmatrix}$$
 
-🎨 **What's Happening**: Each pixel becomes the average of its neighbors!
+**What's Happening**: Each pixel becomes the average of its neighbors!
 
-## Practice Problems
+## 4. Practice Problems
 
-1️⃣ **Warm-up**:
+**4.1 Warm-up**:
 Multiply these matrices:
 $$\begin{bmatrix} 1 & 2 \end{bmatrix} \times \begin{bmatrix} 2 & 0 \end{bmatrix}$$
 
-2️⃣ **Physics**:
+>$$\begin{bmatrix} 2 & 0 \end{bmatrix}$$
+
+**4.2 Physics**:
 Rotate the vector (2,1) by 45 degrees using a rotation matrix.
 
-3️⃣ **Data Science**:
+>$$R(45^\circ) = \begin{bmatrix} \dfrac{1}{\sqrt{2}} & -\dfrac{1}{\sqrt{2}} \\ \dfrac{1}{\sqrt{2}} &  \dfrac{1}{\sqrt{2}} \end{bmatrix}$$
+
+**4.3 Data Science**:
 Normalize this dataset using matrix operations:
 $$\begin{bmatrix} 10 & 20 \end{bmatrix}$$
-
+>Min-Max Normalization → Scale values between 0 and 1 [0,1]
+>Z-score Normalization (Standardization) → Make data have mean = 0 and standard deviation = 1 [-1,1]
 ## Key Takeaways 🎯
 
 1. Matrix operations are not just abstract math - they're tools for solving real problems
@@ -115,6 +120,6 @@ $$\begin{bmatrix} 10 & 20 \end{bmatrix}$$
 3. In data science, matrices are essential for data processing and machine learning
 4. Breaking down complex operations into simple steps makes them easier to understand
 
-## More Resource 🚀
+## More Resources 🚀
 - [Matrix CheatSheet](https://pmt.physicsandmathstutor.com/download/Maths/A-level/Further/Core-Pure/Edexcel/CP1/Cheat-Sheets/Ch.6%20Matrices.pdf) 
 - [Matrix Operations(with more pictures)](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
