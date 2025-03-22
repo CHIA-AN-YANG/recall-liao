@@ -1,0 +1,37 @@
+/* docs/.vitepress/theme/style.css */
+:root {
+  --vp-layout-max-width: 1440px;
+  --vp-sidebar-width: 272px;
+  --vp-aside-width: 300px;
+}
+
+.VPDoc {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.VPDoc .container {
+  max-width: none;
+  flex: 1;
+}
+
+.VPDoc .aside {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding-top: var(--vp-nav-height);
+  padding-bottom: 2rem;
+  width: var(--vp-aside-width);
+}
+
+@media (max-width: 960px) {
+  .VPDoc .aside {
+    display: none;
+  }
+}
+
+.tag-list {
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+}
