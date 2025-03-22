@@ -16,10 +16,7 @@ Let's break this down step by step! 👇
 
 Think of matrix addition like adding corresponding elements in a grid:
 
-```
-⎡2  1⎤     ⎡1  2⎤     ⎡3  3⎤
-⎣3  4⎦  +  ⎣2  1⎦  =  ⎣5  5⎦
-```
+$$\begin{bmatrix} 2 & 1 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 1 & 2 \\ 2 & 1 \end{bmatrix} = \begin{bmatrix} 3 & 3 \\ 5 & 5 \end{bmatrix}$$
 
 🔑 **Key Point**: We add corresponding elements:
 - $(2+1)$ gives us $3$ in position $(1,1)$
@@ -30,14 +27,7 @@ Think of matrix addition like adding corresponding elements in a grid:
 
 This is where things get interesting! Matrix multiplication is like a special dance between rows and columns:
 
-```
-     [Column 1] [Column 2]
-      ↓          ↓
-    ⎡2  1⎤    ⎡1  2⎤
-    ⎣3  4⎦  ×  ⎣2  1⎦
-    ↑
-    [Row 1]
-```
+$$\begin{bmatrix} 2 & 1 \\ 3 & 4 \end{bmatrix} \times \begin{bmatrix} 1 & 2 \\ 2 & 1 \end{bmatrix}$$
 
 🎯 **Step-by-Step Process**:
 1. Take a row from the first matrix
@@ -45,13 +35,9 @@ This is where things get interesting! Matrix multiplication is like a special da
 3. Multiply corresponding elements and add them up
 
 For position $(1,1)$:
-$$(2 × 1) + (1 × 2) = 2 + 2 = 4$$
+$$(2 \times 1) + (1 \times 2) = 2 + 2 = 4$$
 
-```
-Result:
-⎡2×1 + 1×2   2×2 + 1×1⎤   ⎡4  5⎤
-⎣3×1 + 4×2   3×2 + 4×1⎦ = ⎣11 7⎦
-```
+$$\begin{bmatrix} 2 \times 1 + 1 \times 2 & 2 \times 2 + 1 \times 1 \\ 3 \times 1 + 4 \times 2 & 3 \times 2 + 4 \times 1 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 11 & 7 \end{bmatrix}$$
 
 ## 2. Physics Applications 🌟
 
@@ -59,15 +45,7 @@ Result:
 
 When you rotate an object in 2D space, you're actually using matrix multiplication!
 
-```
-Rotation Matrix (θ = 90°):
-    ⎡cos(θ)  -sin(θ)⎤   ⎡0  -1⎤
-    ⎣sin(θ)   cos(θ)⎦ = ⎣1   0⎦
-
-Point (1,0):
-    ⎡0  -1⎤   ⎡1⎤   ⎡ 0⎤
-    ⎣1   0⎦ × ⎣0⎦ = ⎣1⎦
-```
+$$\begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix}$$
 
 💡 **Insight**: This rotates the point (1,0) to (0,1), a 90° rotation!
 
@@ -75,11 +53,7 @@ Point (1,0):
 
 In physics, matrices help us transform vectors representing forces:
 
-```
-Force Vector:    Transform Matrix:    Result:
-    ⎡Fx⎤           ⎡2  0⎤           ⎡2Fx⎤
-    ⎣Fy⎦     ×     ⎣0  2⎦    =     ⎣2Fy⎦
-```
+$$\begin{bmatrix} F_x \\ F_y \end{bmatrix} \times \begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix} = \begin{bmatrix} 2F_x \\ 2F_y \end{bmatrix}$$
 
 🎓 **Application**: This could represent doubling the force in both x and y directions!
 
@@ -89,12 +63,7 @@ Force Vector:    Transform Matrix:    Result:
 
 In machine learning, we often need to transform our data. Here's how matrices help:
 
-```
-Data Points:     Transform:        Normalized Data:
-⎡x1  y1⎤       ⎡1/σx   0  ⎤      ⎡x1/σx  y1/σy⎤
-⎢x2  y2⎥   ×   ⎣ 0   1/σy⎦  =   ⎢x2/σx  y2/σy⎥
-⎣x3  y3⎦                        ⎣x3/σx  y3/σy⎦
-```
+$$\begin{bmatrix} x_1 & y_1 \end{bmatrix} \times \begin{bmatrix} \frac{1}{\sigma_x} & 0 \\ 0 & \frac{1}{\sigma_y} \end{bmatrix} = \begin{bmatrix} \frac{x_1}{\sigma_x} & \frac{y_1}{\sigma_y} \end{bmatrix}$$
 
 🔍 **Use Case**: This standardizes our features by dividing by their standard deviations!
 
@@ -102,11 +71,7 @@ Data Points:     Transform:        Normalized Data:
 
 PCA uses matrix operations to find the most important patterns in data:
 
-```
-Data Matrix:     Eigenvectors:     Transformed Data:
-    X       ×        V        =         T
-[n×m]          [m×k]              [n×k]
-```
+$$X \times V = T$$
 
 📈 **Result**: We reduce our data dimensions while keeping the most important information!
 
@@ -114,11 +79,7 @@ Data Matrix:     Eigenvectors:     Transformed Data:
 
 Matrix multiplication is the backbone of neural networks:
 
-```
-Input Layer:    Weights:     Bias:    Output:
-    ⎡x1⎤       ⎡w11  w12⎤    ⎡b1⎤    ⎡y1⎤
-    ⎣x2⎦   ×   ⎣w21  w22⎦  + ⎣b2⎦ =  ⎣y2⎦
-```
+$$\begin{bmatrix} x_1 \end{bmatrix} \times \begin{bmatrix} w_{11} & w_{12} \\ w_{21} & w_{22} \end{bmatrix} + \begin{bmatrix} b_1 \end{bmatrix} = \begin{bmatrix} y_1 \end{bmatrix}$$
 
 🧠 **Process**:
 1. Input values are multiplied by weights
@@ -129,12 +90,7 @@ Input Layer:    Weights:     Bias:    Output:
 
 Let's see how matrices transform images:
 
-```
-Original Image Pixel:    Blur Matrix:         Result:
-    ⎡1  2  1⎤          ⎡1/9  1/9  1/9⎤      Blurred
-    ⎢3  4  2⎥    ×     ⎢1/9  1/9  1/9⎥  =   Pixel
-    ⎣2  1  3⎦          ⎣1/9  1/9  1/9⎦      Values
-```
+$$\begin{bmatrix} 1 & 2 & 1 \end{bmatrix} \times \begin{bmatrix} \frac{1}{9} & \frac{1}{9} & \frac{1}{9} \end{bmatrix} = \begin{bmatrix} \text{Blurred Pixel} \end{bmatrix}$$
 
 🎨 **What's Happening**: Each pixel becomes the average of its neighbors!
 
@@ -142,21 +98,14 @@ Original Image Pixel:    Blur Matrix:         Result:
 
 1️⃣ **Warm-up**:
 Multiply these matrices:
-```
-⎡1  2⎤     ⎡2  0⎤
-⎣3  1⎦  ×  ⎣1  3⎦
-```
+$$\begin{bmatrix} 1 & 2 \end{bmatrix} \times \begin{bmatrix} 2 & 0 \end{bmatrix}$$
 
 2️⃣ **Physics**:
 Rotate the vector (2,1) by 45 degrees using a rotation matrix.
 
 3️⃣ **Data Science**:
 Normalize this dataset using matrix operations:
-```
-⎡10  20⎤
-⎢15  25⎥
-⎣20  30⎦
-```
+$$\begin{bmatrix} 10 & 20 \end{bmatrix}$$
 
 ## Key Takeaways 🎯
 
