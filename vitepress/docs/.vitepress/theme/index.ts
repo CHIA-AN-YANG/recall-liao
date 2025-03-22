@@ -1,12 +1,13 @@
-// docs/.vitepress/theme/index.ts
 import { h } from 'vue'
-import Theme from 'vitepress/theme'
+import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import Layout from './Layout.vue'
 import TagList from './components/TagList.vue'
 
-export default {
-  ...Theme,
+export { TagList }
+
+export const Theme = {
+  extends: DefaultTheme,
   Layout: () => {
     return h(Layout)
   },
@@ -14,3 +15,5 @@ export default {
     app.component('TagList', TagList)
   }
 }
+
+export default Theme
