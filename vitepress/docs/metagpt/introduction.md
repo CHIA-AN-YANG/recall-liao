@@ -36,4 +36,4 @@ MetaGPT is designed to:
 
 ## Getting Started
 
-Check out our [Quick Start Guide](/guide/quickstart) to begin using MetaGPT in your projects.
+Check out our [Quick Start Guide](/metagpt/quickstart) to begin using MetaGPT in your projects.

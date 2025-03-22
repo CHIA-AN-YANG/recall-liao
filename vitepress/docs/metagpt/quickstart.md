@@ -41,6 +41,6 @@ MetaGPT will generate:
 
 ## Next Steps
 
-- Learn about [Multi-Agent System](/reference/multi-agent)
-- Explore [Custom Roles](/examples/custom-roles)
-- Check out [Code Generation Examples](/examples/code-generation)
+- Learn about [Multi-Agent System](/metagpt/multi-agent)
+- Explore [Custom Roles](/metagpt/custom-roles)
+- Check out [Code Generation Examples](/metagpt/code-generation)
