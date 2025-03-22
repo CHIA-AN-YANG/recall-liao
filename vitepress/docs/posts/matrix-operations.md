@@ -1,10 +1,11 @@
 ---
 title: Matrix Operations in Physics and Data Science - An Intuitive Guide
-date: 2024-03-22
+date: 2025-03-22
 tags: ['mathematics', 'linear algebra', 'physics', 'data science']
 ---
 
 <CustomH1>Matrix Operations: From Theory to Real-World Applications</CustomH1>
+<PostInfo/>
 
 🤔 **Question**: How do matrix operations actually work, and why are they so important in physics and data science?
 

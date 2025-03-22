@@ -8,10 +8,7 @@
 </template>
 
 <script setup>
-import DefaultTheme from 'vitepress/theme'
 import TagList from './components/TagList.vue'
-
-const { Layout } = DefaultTheme
 </script>
 
 <style scoped>

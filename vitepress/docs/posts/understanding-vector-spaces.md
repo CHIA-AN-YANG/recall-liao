@@ -1,10 +1,11 @@
 ---
 title: Understanding Vector Spaces - From 1D to Abstract Dimensions
-date: 2024-03-22
+date: 2025-03-22
 tags: ['mathematics', 'linear algebra', 'vector spaces']
 ---
 
 <CustomH1>Understanding Vector Spaces</CustomH1>
+<PostInfo/>
 <details>
   <summary>Keyword</summary>
 <dl>

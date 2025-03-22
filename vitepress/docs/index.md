@@ -7,8 +7,8 @@ hero:
   tagline: Explore mathematics through latex syntex and clear explanations
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/introduction
+      text: Write Your Blog
+      link: /metagpt/introduction
     - theme: alt
       text: View on GitHub
       link: https://github.com/CHIA-AN-YANG/math-blog
@@ -21,6 +21,3 @@ features:
   - title: Tag Filtering
     details: Easily find posts by topic using tags
 ---
-
-- [Introduction](/posts/introduction)
-- [Sample Math Note](/posts/sample-math-note)

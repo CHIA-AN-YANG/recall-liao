@@ -1,12 +1,17 @@
 ---
 title: Introduction
-date: 2024-01-01
+date: 2025-03-23
 tags: ['introduction', 'guide']
 ---
 
 # Introduction
+<PostInfo/>
 
-Welcome to the Math Notes Blog! This platform is my place to write and share mathematical notes.
+Welcome to my blog! This platform is my place to write and share mathematical notes.
+Since I am studying LLM, I just want to have a clean space to store my learning path with minimal functionalities, including latex feature, which is crucial to taking notes in math.
+
+That's how this blog is born. It is written with the help of MetaGPT AI agentteam. MetaGPT is truely fun to work with! So I also put the introduction to MetaGPT in the navbar. Nevertheless,
+I won't be able to make this blog in one day with Vue3 without their help!
 
 ## Features
 
@@ -22,8 +27,4 @@ Welcome to the Math Notes Blog! This platform is my place to write and share mat
    ```
 
 3. **Tag Organization**
-   Browse posts by tags using the sidebar
-
-## Getting Started
-
-Simply create markdown files in the `posts` directory with your mathematical content. Use LaTeX syntax between `$` symbols for inline math or `$$` for display math.
+   Browse posts by tags using the sidebar (to be implemented)
