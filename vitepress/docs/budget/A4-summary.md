@@ -6,4 +6,7 @@ pageClass: page-preset
 ---
 <!-- <ImageModal thumbnailSrc="/image/budget-1.jpg" fullSrc="/image/budget-1.jpg" alt="連署相關事項"/> -->
 
-<embed src="/image/罷免傳單A4.pdf" style="width:Min(1168px,calc(100vw - var(--vp-sidebar-width)));height:Min(calc(100vh - var(--vp-nav-height)),700px);"/>
+
+<a href="/image/罷免傳單A4.pdf" download>.....[下載 PDF].....</a>
+<embed src="/image/罷免傳單A4.pdf" class="embed-pdf"></embed>
+

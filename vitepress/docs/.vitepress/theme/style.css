@@ -291,3 +291,17 @@ ul.timeline h6 {
     height: 198px;
   }
 }
+
+.embed-pdf {
+  width: Min(1168px, calc(100vw - var(--vp-sidebar-width)));
+  height: Min(calc(100vh - var(--vp-nav-height)), 700px);
+}
+
+@media (max-width:980px) {
+  .embed-pdf {
+    width: 100vw;
+    height: calc(100vh - var(--vp-nav-height));
+    z-index: 1000;
+    visibility: visible;
+  }
+}
