@@ -39,9 +39,9 @@ function formatDate(date) {
 }
 
 .tag {
-  padding: 0.13rem 0.5rem 0.25rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 10px;
-  background-color: var(--vp-c-brand-2);
+  background-color: var(--vp-c-red-soft);
   color: var(--vp-c-text-1);
   font-size: 0.8rem;
   font-weight: 600;

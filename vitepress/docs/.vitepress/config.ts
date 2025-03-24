@@ -1,71 +1,64 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  lang: 'en-US',
-  title: 'Anna Yang\'s Notebook',
-  description: 'LLM learning blog from scratch, with LaTeX support',
+  lang: 'zh-TW',
+  title: '廖偉翔罷免資訊整理',
+  description: '台中市立委廖偉翔，公民罷免資訊整理',
   head: [
     ['meta', { name: 'author', content: 'Anna Yang' }],
     ['meta', { name: 'keywords', content: 'LaTeX, Math, Python, Machine Learning, AI, GPT, MetaGPT' }],
-    ['link', { rel: 'icon', type: "image/png", sizes: "32x32", href: '/image/favicon.png' }],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap' }],
+    ['link', { rel: 'icon', type: "image/jpg", sizes: "32x32", href: '/recall-logo.jpg' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap' }],
   ],
   markdown: {
-    math: true,
     lineNumbers: true,
-    codeCopyButtonTitle: 'copy',
   },
   themeConfig: {
     logo: '/image/logo-note.webp',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'About', link: '/posts/introduction' },
-      { text: 'Posts', link: '/posts/understanding-vector-spaces' },
-      { text: 'MetaGPT', link: '/metagpt/basic-usage' },
+      { text: '回首頁', link: '/' },
+      { text: '問政品質', link: '/personal/stupid' },
+      { text: '預算影響', link: '/budget/overview' },
+      // { text: '國家安全', link: '/metagpt/basic-usage' },
     ],
     sidebar: {
-      '/posts/': [
+      '/personal/': [
         {
-          text: 'Math',
+          text: '問政品質',
           items: [
-            // { text: 'Introduction', link: '/posts/introduction' },
-            // { text: 'Sample Math Note', link: '/posts/sample-math-note' },
-
-            { text: 'Vector Spaces', link: '/posts/understanding-vector-spaces' },
-            { text: 'Matrix Calculation', link: '/posts/matrix-operations' },
-
-
+            { text: '荒唐問政', link: '/personal/stupid' },
+            { text: '收割行為', link: '/personal/crop' },
           ]
         },
         {
-          text: 'Python',
+          text: '暴力行為',
           items: [
-            { text: 'Torch Multinomial', link: '/posts/torch-multinomial' },
+            { text: '立院衝突事件', link: '/personal/violence' },
           ]
         }
       ],
 
-      '/metagpt/': [
+      '/budget/': [
         {
-          text: 'Getting Started',
+          text: '預算被砍了',
           items: [
-            { text: 'Introduction', link: '/metagpt/introduction' },
-            { text: 'Installation', link: '/metagpt/installation' },
-            { text: 'Quickstart', link: '/metagpt/quickstart' },]
+            { text: '整體預算影響', link: '/budget/overview' },
+            { text: 'PDF A4版本', link: '/budget/A4-summary' },
+            { text: '相關影音', link: '/budget/videos' },
+          ]
         },
-        {
-          text: 'More Configuration',
-          items: [
-            { text: 'basic usage', link: '/metagpt/basic-usage' },
-            { text: 'code generation', link: '/metagpt/code-generation' },
-            { text: 'code generation', link: '/metagpt/custom-roles' },]
-        },
+        // {
+        //   text: '國家安全',
+        //   items: [
+        //     { text: 'basic usage', link: '/metagpt/basic-usage' },
+        //     { text: 'code generation', link: '/metagpt/code-generation' },
+        //     { text: 'code generation', link: '/metagpt/custom-roles' },]
+        // },
       ],
     },
     footer: {
       message: 'Anna Yang ©2025 all rights reserved',
-    }
+    },
   },
   vite: {
     server: {
