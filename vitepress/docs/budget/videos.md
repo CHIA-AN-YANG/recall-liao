@@ -7,19 +7,17 @@ tags: ['刪除預算','各部會說明','國民黨']
 
 <PostInfo/>
 
-- [行政院說明](#legi)
-- [電費補助大幅刪減](#electricity)
-- [打詐預算](#spam)
 
+
+### 1. 徐巧芯：你們的海鯤號浮起來就有錢了
 
 <div class="inline-media">
-<h6>徐巧芯：你們的海鯤號浮起來就有錢了</h6>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YpS0_L_VDWE?si=O0zCtCP37O_pZBHf&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/YpS0_L_VDWE?si=O0zCtCP37O_pZBHf&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-### 聯合說明 [IG影片](https://www.instagram.com/reel/DFKkKHnz06-/?utm_source=ig_web_button_share_sheet)
+### 2. 聯合說明 [IG影片](https://www.instagram.com/reel/DFKkKHnz06-/?utm_source=ig_web_button_share_sheet)
 
-### 各部會說明
+### 3. 各部會說明
 <p id="#legi"></p>
 <div class="inline-media">
 <h6>文化部說明</h6>
@@ -38,7 +36,7 @@ tags: ['刪除預算','各部會說明','國民黨']
 <iframe width="300" height="560"  src="https://www.youtube.com/embed/0wdzk-tQ3kk?si=_UtrSAV63QE2RvH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-### 闢謠專區
+### 4. 闢謠專區
 <p id="#norumor"></p>
 
 <div class="inline-media">

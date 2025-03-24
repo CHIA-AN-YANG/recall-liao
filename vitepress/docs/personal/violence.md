@@ -22,11 +22,14 @@ tags: ['個人行為', '暴力行為']
 
 ### 聯合新聞網
 攻占主席台被推下！沈伯洋頭部著地緊急送醫
-<iframe width="800" height="500" src="https://www.youtube.com/embed/pQfgmM9xCho?si=TACQmCFGr9Tffuzk&amp;start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="iframe-vid">
+<iframe src="https://www.youtube.com/embed/pQfgmM9xCho?si=TACQmCFGr9Tffuzk&amp;start=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### 三立新聞網 (較清晰)
 立院再爆衝突! 綠委沈伯洋遭藍委拉下頭部著地 把沈伯洋往下丟 邱議瑩哽咽控:邱鎮軍"殺人未遂" │記者 廖品鈞 游任博 黃澄柏 │【LIVE大現場】20221020│三立新聞台
-
-<iframe width="800" height="500" src="https://www.youtube.com/embed/IFm0gi-iyps?si=xtwVT2JeHtWUae6u&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="iframe-vid">
+<iframe src="https://www.youtube.com/embed/IFm0gi-iyps?si=xtwVT2JeHtWUae6u&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### [沈伯洋遭推下主席台「頭著地」擔架抬走！ 藍綠委送醫名單曝](https://tw.news.yahoo.com/%E6%B2%88%E4%BC%AF%E6%B4%8B%E9%81%AD%E6%8E%A8%E4%B8%8B%E4%B8%BB%E5%B8%AD%E5%8F%B0-%E9%A0%AD%E8%91%97%E5%9C%B0-%E6%93%94%E6%9E%B6%E6%8A%AC%E8%B5%B0-%E8%97%8D%E7%B6%A0%E5%A7%94%E9%80%81%E9%86%AB%E5%90%8D%E5%96%AE%E6%9B%9D-131032729.html)

@@ -15,10 +15,14 @@ export default defineConfig({
   },
   themeConfig: {
     logo: '/image/logo-note.webp',
+    logoLink: '/',
     nav: [
-      { text: '回首頁', link: '/' },
+      { text: '暴力行為', link: '/personal/violence' },
       { text: '問政品質', link: '/personal/stupid' },
+      { text: '收割行為', link: '/personal/crop' },
       { text: '預算影響', link: '/budget/overview' },
+      { text: '預算PDF', link: '/budget/A4-summary' },
+      { text: '相關影音', link: '/budget/videos' },
       // { text: '國家安全', link: '/metagpt/basic-usage' },
     ],
     sidebar: {
@@ -40,7 +44,7 @@ export default defineConfig({
 
       '/budget/': [
         {
-          text: '預算被砍了',
+          text: '我們的預算',
           items: [
             { text: '整體預算影響', link: '/budget/overview' },
             { text: 'PDF A4版本', link: '/budget/A4-summary' },

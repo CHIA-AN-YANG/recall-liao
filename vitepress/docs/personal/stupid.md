@@ -37,7 +37,9 @@ tags: ['缺乏專業','個人行為']
 
 一刀未剪】綠營怒轟廖偉翔"囤藥說"荒謬至極! 廖質詢稱藥局為留客戶"私下囤藥" 薛瑞元駁:藥局囤藥困難 藥師公會炸鍋抗議 戴瑋姍轟:別用荒謬言論博聲量｜【焦點人物大現場】20240308｜三立新聞台
 
-<iframe width="400" height="300" src="https://www.youtube.com/embed/xHihz1vPyc0?si=VLP-6DPQzZHyDrKM&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="iframe-vid">
+<iframe src="https://www.youtube.com/embed/xHihz1vPyc0?si=VLP-6DPQzZHyDrKM&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### 藥師公會聲明稿
 <ImageModal
@@ -52,10 +54,13 @@ tags: ['缺乏專業','個人行為']
 ### 民視新聞報導
 
 廖偉翔追問瘦肉精 陳建仁嗆：食安是科學、你講的是政治－民視台語新聞
-<iframe width="400" height="300" src="https://www.youtube.com/embed/GL2BEj6-gNA?si=AHeOCJUKI528Orbq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="iframe-vid">
+<iframe src="https://www.youtube.com/embed/GL2BEj6-gNA?si=AHeOCJUKI528Orbq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### TVBS新聞報導
 
 廖偉翔質詢追問瘦肉精 陳建仁嗆「你不講科學」｜TVBS新聞
-
-<iframe width="400" height="300" src="https://www.youtube.com/embed/8Fjer_Kcjrg?si=-6ofjlLFggDAMThc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="iframe-vid">
+<iframe src="https://www.youtube.com/embed/8Fjer_Kcjrg?si=-6ofjlLFggDAMThc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
