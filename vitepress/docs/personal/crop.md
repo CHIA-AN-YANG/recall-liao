@@ -1,5 +1,5 @@
 ---
-title: Sample Math Note
+title: 收割政績
 date: 2025-03-24
 tags: ['個人行為','收割政績']
 ---

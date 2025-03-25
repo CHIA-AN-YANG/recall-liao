@@ -1,5 +1,5 @@
 ---
-title: Matrix Operations in Physics and Data Science - An Intuitive Guide
+title: 缺乏專業
 date: 2025-03-22
 tags: ['缺乏專業','個人行為']
 ---
