@@ -12,7 +12,7 @@ tags: ['個人行為','收割政績']
 [wiki](https://zh.wikipedia.org/zh-tw/%E5%BB%96%E5%81%89%E7%BF%94)
 
 後來，有民眾自發性在台中刊登看板描述廖偉翔收個藍線的行為，但是不到幾天，刊登的屋主疑似受到壓力拆除。
-[諷廖偉翔「坐在家成功爭取捷運藍線」廣告拆了 陳柏惟：迫於壓力](諷廖偉翔「坐在家成功爭取捷運藍線」廣告拆了 陳柏惟：迫於壓力)
+[諷廖偉翔「坐在家成功爭取捷運藍線」廣告拆了 陳柏惟：迫於壓力](https://news.ltn.com.tw/news/politics/breakingnews/4571880)
 
 <ImageModal
   thumbnailSrc="/image/personal-crop-1.png"
